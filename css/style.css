@@ -1,0 +1,36 @@
+
+
+header {
+    background-color: plum;
+    background-position: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    align-items: center;
+    display: flex;
+}
+
+nav li {
+    display: inline;
+    margin: 20px;
+}
+
+nav li a{
+    text-decoration: None;
+    color: black;
+}
+
+.active{
+    background-color: pink;
+}
+
+img {
+    border-radius: 8px;
+}
+
+img:hover {
+    border: 2px solid red;
+    border-radius: 8px;
+    border-width: 2px;
+}
