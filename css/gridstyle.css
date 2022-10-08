@@ -1,0 +1,32 @@
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 44px;
+  }
+
+h2 {
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    text-align: left;
+    color: black;
+    padding: 10px 0px 10px 10px;
+}
+
+.album {
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.5);
+}
+
+.description {
+    font-family: Work Sans;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.29;
+    letter-spacing: 0.1px;
+    text-align: left;
+    color: #4a4a4a;
+    padding: 10px 0px 10px 10px;
+    border-top: 1px solid #4a4a4a;
+}
