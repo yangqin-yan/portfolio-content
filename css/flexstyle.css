@@ -1,0 +1,28 @@
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.album {
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.5);
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.first {
+    animation: fadeIn 3s;
+}
+
+@media screen and (prefers-reduced-motion: reduce){
+    html{
+      scroll-behavior: auto; /* Removes scroll animation */
+    }
+  
+    .first {
+      animation: none;
+    }
+}
