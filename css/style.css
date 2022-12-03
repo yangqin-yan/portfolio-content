@@ -13,6 +13,27 @@ header {
   font-family: "Sofia", sans-serif;
 }
 
+.skip a {
+  background: greenyellow;
+  padding: 6px;
+  -webkit-transition: top 1s ease-out;
+  transition: top 1s ease-out;
+  z-index: 2;
+  position: relative;
+  left: -500px;
+  top: -40px;
+}
+
+.skip a:focus{
+  background: greenyellow;
+  top: 10;
+  left: 10;
+  padding: 6px;
+  transition: top 1s ease-out;
+  z-index: 2;
+  position: absolute;
+}
+
 nav{
   display: inline-block;
   width: 100%;
