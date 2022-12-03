@@ -15,12 +15,14 @@
     <link rel="icon" href="images/icon.ico">
     <link rel="stylesheet" href="css/html5reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/gridstyle.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
     <title>Yoasobi</title>
   </head>
   <body>
     <header>
       <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <a href="#main" class="skip">Jump to content</a>
       <nav>
         <ul>
           <li class="active"><a href="index.html">Home</a></li>
@@ -28,64 +30,72 @@
           <li><a href="activities.html">Activities</a></li>
           <li><a href="members.html">Members</a></li>
         </ul>
-      </nav>
-
-      <!-- <a href="#main" class="skip">Jump to content</a> -->
+      </nav>   
   </header>
   <main id="main">
     <h1> Introduction </h1>  
-    <p>
-      <i class="fa-solid fa-music"></i> Yoasobi (stylized in all caps) is a Japanese music superduo 
-      formed by Sony Music Entertainment Japan, composed of Vocaloid producer Ayase, 
-      and singer-songwriter Ikura. Represented by the slogan "novel into music", 
-      the duo has released songs based on novels posted on Monogatary.com,
-       a novel-centered social media operated by their label, 
-       which is also from various media like novels written by professional authors, 
-       books, and letters.
-    </p>
+    <div class="intro">
+      <p class="intro1">
+        <i class="fa-solid fa-music"></i> Yoasobi (stylized in all caps) is a Japanese music superduo 
+        formed by Sony Music Entertainment Japan, composed of Vocaloid producer Ayase, 
+        and singer-songwriter Ikura. Represented by the slogan "novel into music", 
+        the duo has released songs based on novels posted on Monogatary.com,
+         a novel-centered social media operated by their label, 
+         which is also from various media like novels written by professional authors, 
+         books, and letters.
+      </p>
+  
+      <p class="intro2">
+        Yoasobi won two Artist of the Years at the 2021 MTV Video Music Awards 
+        Japan and the 2022 Space Shower Music Awards, 
+        and Special Achievement Award at the 63rd Japan Record Awards.
+      </p>
+  
+      <img class="introfig1" src="images/yoasobi.jpg" alt="yoasobi" />
+  
+      <p class="intro3">
+        The name "YOASOBI" originates from the Japanese word 夜遊び, 
+        meaning "nightlife". Ayase, who is a producer of the group said he
+         named it as a wish that he could take on various playful challenges 
+         by comparing the appearance of acting as an individual to the appearance 
+         of daytime and the appearance of two people acting as YOASOBI as the 
+         appearance of the night.
+      </p>
 
-    <p>
-      Yoasobi won two Artist of the Years at the 2021 MTV Video Music Awards 
-      Japan and the 2022 Space Shower Music Awards, 
-      and Special Achievement Award at the 63rd Japan Record Awards.
-    </p>
+      <img class="first" src="images/YOASOBI2.png" alt="yoasobi group" /> 
+  
+      <p class="intro4">
+        Yoasobi belongs to the genre of J-pop (Japanese pop songs). Music of Yoasobi has obvious features
+        like fast pace, sophisticated instrument arrangement in all the frequencies, iterated chord
+        progressions and the shouting of Ikura.
+      </p>
+    </div>
+  </main>
 
-    <p>
-      The name "YOASOBI" originates from the Japanese word 夜遊び, 
-      meaning "nightlife". Ayase, who is a producer of the group said he
-       named it as a wish that he could take on various playful challenges 
-       by comparing the appearance of acting as an individual to the appearance 
-       of daytime and the appearance of two people acting as YOASOBI as the 
-       appearance of the night.
-    </p>
+  <aside>
+    <form action="https://formspree.io/f/xqkjgwyr" method="POST">
+      <label class="email">
+        Your email:
+        <input type="email" name="email">
+      </label>
+      <p>
 
-    <p>
-      Yoasobi belongs to the genre of J-pop (Japanese pop songs). Music of Yoasobi has obvious features
-      like fast pace, sophisticated instrument arrangement in all the frequencies, iterated chord
-      progressions and the shouting of Ikura.
-    </p>
+      </p>
+      <label class="message">
+        Your message:
+        <textarea name="message"></textarea>
+      </label>
+      <!-- your other form fields go here -->
+      <p>
+
+      </p>
+      <button type="submit">Send</button>
+    </form>
 
     
-    <img src="images/yoasobi.jpg" alt="yoasobi" />
-
-      <form
-    action="https://formspree.io/f/xqkjgwyr"
-    method="POST"
-  >
-    <label>
-      Your email:
-      <input type="email" name="email">
-    </label>
-    <label>
-      Your message:
-      <textarea name="message"></textarea>
-    </label>
-    <!-- your other form fields go here -->
-    <button type="submit">Send</button>
-  </form>
-  </main>
+  </aside>
       <footer>
-        
+        footer
       </footer>
   </body>
 </html>
