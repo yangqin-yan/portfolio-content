@@ -15,10 +15,11 @@ header {
 
 .skip a {
   background: greenyellow;
+  font-size: large;
   padding: 6px;
   -webkit-transition: top 1s ease-out;
   transition: top 1s ease-out;
-  z-index: 2;
+  z-index: 1;
   position: relative;
   left: -500px;
   top: -40px;
@@ -26,11 +27,11 @@ header {
 
 .skip a:focus{
   background: greenyellow;
-  top: 10;
-  left: 10;
+  top: 0;
+  left: 0;
   padding: 6px;
   transition: top 1s ease-out;
-  z-index: 2;
+  z-index: 1;
   position: absolute;
 }
 
