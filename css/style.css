@@ -64,6 +64,10 @@ nav li a {
   background-color: rgb(134, 80, 200);
 }
 
+.active a {
+  color: white;
+}
+
 img {
   border-radius: 8px;
   width: 100%;
